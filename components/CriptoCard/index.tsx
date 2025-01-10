@@ -29,7 +29,7 @@ export const CryptoCard = (props: TCryptoCard) => {
             <span className="text-lg font-semibold text-gray-700">{rank}</span>
           </p>
         </div>
-        <div className="text-center">
+        <div className="text-end">
           <h2 className="text-xl font-medium text-gray-800">{name}</h2>
           <p className="text-sm text-gray-500">{symbol}</p>
         </div>
